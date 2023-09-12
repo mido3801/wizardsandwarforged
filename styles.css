@@ -1,0 +1,106 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f1de;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: url('parchment_background.jpg'); /* Replace with your parchment background image */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #6b4423;
+}
+
+p {
+    text-align: justify;  /* Justified text for a cleaner look */
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+/* You can add specific styles for each section if needed, e.g., */
+.conflict {
+    font-style: italic;
+}
+
+.turning-point {
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #6b4423;
+    color: white;
+    overflow: hidden;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navbar ul li a:hover {
+    background-color: #4d3217;
+}
+
+/* Faculty Profile */
+.faculty-profile {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.faculty-image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.faculty-name {
+    font-size: 2em;
+    margin: 10px;
+    font-family: 'Georgia', serif;  /* Example font */
+}
+
+.faculty-college, .faculty-research {
+    font-size: 1.5em;  /* Increased font size */
+    margin: 5px 10px;
+    text-align: center;  /* Center-aligned text */
+    font-family: 'Georgia', serif;  /* Similar font to the name for coherence */
+}
+
+/* Intro Title */
+.intro-title {
+    font-size: 5em;  /* Large font size */
+    text-align: center;  /* Center-aligned text */
+    margin-top: 20%;  /* Push it down to roughly the middle of the view */
+    font-family: 'Georgia', serif;  /* Example font */
+    color: #6b4423;  /* Color that fits the theme */
+}
