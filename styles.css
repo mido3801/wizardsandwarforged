@@ -218,8 +218,8 @@ tr:nth-child(even) {
 
 /* Position colleges in a pentagon shape */
 #college1 { transform: translate(100px, 0px); }
-#college2 { transform: translate(295.44px, 100px); }
-#college3 { transform: translate(195.44px, 295.44px); }
-#college4 { transform: translate(4.56px, 295.44px); }
-#college5 { transform: translate(-100px, 100px); }
+#college2 { transform: translate(295.44px, 130px); }
+#college3 { transform: translate(215.44px, 325.44px); }
+#college4 { transform: translate(-24.56px, 325.44px); }
+#college5 { transform: translate(-100px, 130px); }
 
