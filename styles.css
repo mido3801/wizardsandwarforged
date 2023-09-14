@@ -185,6 +185,11 @@ th {
     font-size: 1.4em;  /* Make header font larger */
 }
 
+/* Alternate row colors for better readability */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
 /* Colleges */
 .colleges {
     position: relative;
@@ -213,8 +218,8 @@ th {
 
 /* Position colleges in a pentagon shape */
 #college1 { transform: translate(100px, 0px); }
-#college2 { transform: translate(295.44px, 100px) rotate(72deg); }
-#college3 { transform: translate(195.44px, 295.44px) rotate(144deg); }
-#college4 { transform: translate(4.56px, 195.44px) rotate(-144deg); }
-#college5 { transform: translate(100px, 100px) rotate(-72deg); }
+#college2 { transform: translate(295.44px, 100px); }
+#college3 { transform: translate(195.44px, 295.44px); }
+#college4 { transform: translate(4.56px, 295.44px); }
+#college5 { transform: translate(-100px, 100px); }
 
