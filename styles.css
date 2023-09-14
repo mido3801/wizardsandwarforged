@@ -158,3 +158,36 @@ p {
 .content {
     display: none; /* By default, the content is hidden */
 }
+
+/* Class Schedule */
+.class-schedule {
+    max-width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 1.2em;  /* Increase the font size */
+    font-family: 'Georgia', serif;  /* Example of a more thematic font */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 15px;  /* Increase padding */
+    text-align: center;
+    text-shadow: 1px 1px 1px #aaa;  /* Text shadow for depth */
+}
+
+th {
+    background-color: #6b4423;
+    color: white;
+    font-size: 1.4em;  /* Make header font larger */
+}
+
+/* Alternate row colors for better readability */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
