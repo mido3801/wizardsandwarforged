@@ -161,6 +161,11 @@ p {
 
 
 /* Class Schedule */
+.class-schedule {
+    max-width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
 table {
     width: 100%;
     border-collapse: collapse;
@@ -179,4 +184,37 @@ th {
     color: white;
     font-size: 1.4em;  /* Make header font larger */
 }
+
+/* Colleges */
+.colleges {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+}
+
+.college {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;  /* Center text vertically */
+    text-align: center;  /* Center text horizontally */
+    background-color: #6b4423;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;  /* Smooth hover effect */
+}
+
+/* Hover effect */
+.college:hover {
+    background-color: #4d3217;
+    transform: scale(1.1);  /* Slightly enlarge on hover */
+}
+
+/* Position colleges in a pentagon shape */
+#college1 { transform: translate(100px, 0px); }
+#college2 { transform: translate(295.44px, 100px) rotate(72deg); }
+#college3 { transform: translate(195.44px, 295.44px) rotate(144deg); }
+#college4 { transform: translate(4.56px, 195.44px) rotate(-144deg); }
+#college5 { transform: translate(100px, 100px) rotate(-72deg); }
 
