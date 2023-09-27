@@ -1,26 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Colleges</title>
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="custom-navbar">
         <ul>
-            <li><a href="campaign_intro.html">Campaign Intro</a></li>
+            <li><a href="intro.html">Campaign Intro</a></li>
             <li><a href="extracurriculars.html">Extracurriculars</a></li>
-            <!-- Add more links here as you create more pages -->
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="calendar.html">Year 1</a></li>
+            <li><a href="colleges.html">Year 1</a></li>
         </ul>
     </nav>
 
-    <!-- Colleges -->
-    <div class="colleges">
-        <div class="college" id="college1">Lorehold</div>
-        <div class="college" id="college2">Prismari</div>
-        <div class="college" id="college3">Quandrix</div>
-        <div class="college" id="college4">Silverquill</div>
-        <div class="college" id="college5">Witherbloom</div>
+    <div class="container mt-5">
+        <!-- Pentagon Layout -->
+        <div class="pentagon-container mx-auto">
+            <div class="top" >
+                <i class="fa-solid fa-masks-theater fa-3x" data-bs-toggle="modal" data-bs-target="#myModal1"></i>
+            </div>
+            <div class="mid-left" data-bs-toggle="modal" data-bs-target="#myModal2">
+                <i class="fa-solid fa-atom fa-3x"></i>
+            </div>
+            <div class="mid-right" data-bs-toggle="modal" data-bs-target="#myModal3">
+                <i class="fa-solid fa-pen-fancy fa-3x"></i>
+            </div>
+            <div class="bottom-left" data-bs-toggle="modal" data-bs-target="#myModal4">
+                <i class="fa-solid fa-plant-wilt fa-3x"></i>
+            </div>
+            <div class="bottom-right" data-bs-toggle="modal" data-bs-target="#myModal5">
+                <i class="fa-solid fa-book-open-reader fa-3x"></i>
+            </div>
+        </div>
     </div>
+
+    <div class="modal" id="myModal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Prismari</h4>
+                </div>
+                <div class="modal-body">
+                    This college is where elemental magic meets artistic flair. Students learn to channel their creativity into elemental expressions, whether that's fire sculptures or watercolor spells. Many students become entertainers, showcasing their magical talents in performances.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Quandrix</h4>
+                </div>
+                <div class="modal-body">
+                    This arcane school explores the perplexing realms of mathematical realities and dimensional magic. Its students, often mentored by archfey or researchers from House Cannith, seek to understand the multi-dimensional facets of the universe.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myModal3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Silverquill</h4>
+                </div>
+                <div class="modal-body">
+                    This college specializes in written magic—contracts, runes, and scrolls. Many members are tied to House Sivis and other legal institutions. They emphasize the power of binding words and documents, both mundane and magical.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myModal4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Witherbloom</h4>
+                </div>
+                <div class="modal-body">
+                    This college focuses on the symbiotic relationship between life and death. Students are taught to harness the energies of nature to both heal and harm. A balanced approach is emphasized, leading many to become proficient in both druidic and necromantic magic.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myModal5">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Lorehold</h4>
+                </div>
+                <div class="modal-body">
+                    Centered on the study of history and time, this college has artificers and wizards keen on understanding the passage of time and historical events. Many delve into the intricacies of the Draconic Prophecy, attempting to decode its impact on past, present, and future.
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
