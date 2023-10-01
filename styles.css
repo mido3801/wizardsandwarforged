@@ -345,3 +345,86 @@ button:hover {
     right: 0;
     transform: translateY(-50%);
 }
+
+/* Session Card Styles */
+.session-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.session-card {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+.session-card:hover {
+    transform: translateY(-10px);
+}
+
+.session-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.session-date {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #7f8c8d;
+}
+
+.session-summary {
+    color: #34495e;
+}
+
+/* Scoreboard Styles */
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    text-align: center;  /* Centering text within each team div */
+}
+
+.team {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 40%;
+}
+
+.score {
+    font-size: 50px;
+    margin-top: 20px;
+    color: #3498db;
+}
+
+/* Points Guide Styles */
+.points-guide {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;  /* Centering the guide content */
+}
+
+.points-guide h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.points-guide ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.points-guide li {
+    margin-bottom: 10px;
+}
